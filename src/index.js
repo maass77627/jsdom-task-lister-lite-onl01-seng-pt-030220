@@ -10,6 +10,6 @@ console.log("Hello World")
     //newTask.select()
     li = document.createElement('li')
     li.innerHtml = "newTask"
-    taskList.appendChild(li)
+    taskList.appendChild("newTask")
   })
 });
