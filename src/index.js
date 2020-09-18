@@ -8,6 +8,8 @@ console.log("Hello World")
     const newTask = document.querySelector("#new-task-description").value
     console.log(newTask)
     //newTask.select()
-    taskList.appendChild(newTask)
+    li = document.createElement('li')
+    li.innerHtml = newTask
+    taskList.appendChild("li")
   })
 });
