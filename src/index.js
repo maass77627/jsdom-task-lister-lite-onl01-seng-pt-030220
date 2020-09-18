@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   document.getElementById("create-task-form").addEventListener("click", function(e) {
     e.preventDefault();
-    let form = document.querySelector("create-task-form")
+    let form = document.getElementById("create-task-form")
     let taskList = document.getElementById("tasks")
     let newTask = document.getElementById("new-task-description")
     newTask.select()
