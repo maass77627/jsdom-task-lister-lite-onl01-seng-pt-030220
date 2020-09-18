@@ -5,7 +5,7 @@ console.log("Hello World")
     e.preventDefault();
 
     const taskList = document.getElementById("tasks")
-    const newTask = document.querySelector("#new-task-description")
+    const newTask = document.querySelector("#new-task-description").value
     console.log(newTask)
     //newTask.select()
     //taskList.appendChild()
