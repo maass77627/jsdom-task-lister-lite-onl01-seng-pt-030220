@@ -3,5 +3,5 @@ document.addEventListener("DOMContentLoaded", () => {
 
   document.getElementById("create-task-form").addEventListener("click", function(e) {
     e.preventDefault();
-  }
+  })
 });
