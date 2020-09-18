@@ -5,6 +5,6 @@ document.addEventListener("DOMContentLoaded", () => {
     e.preventDefault();
     let taskList = document.getElementById("tasks")
     let newTask = document.getElementById("new-task-description")
-    taskList.appendChild(submit)
+    //taskList.appendChild()
   })
 });
