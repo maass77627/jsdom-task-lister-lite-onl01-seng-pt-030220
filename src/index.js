@@ -8,7 +8,7 @@ const taskList = document.getElementById("tasks")
     console.log(newTask)
 
     li = document.createElement('li')
-    li.innerText = "newTask"
+    li.innerText = newTask
     taskList.appendChild(li)
   })
 });
