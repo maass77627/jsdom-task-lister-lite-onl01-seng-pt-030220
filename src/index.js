@@ -6,7 +6,7 @@ const taskList = document.getElementById("tasks")
     e.preventDefault();
    const newTask = document.querySelector("#new-task-description").value
     console.log(newTask)
-    
+
     li = document.createElement('li')
     li.innerHtml = "${newTask}"
     taskList.appendChild(newTask)
